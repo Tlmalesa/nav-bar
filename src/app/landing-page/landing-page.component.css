@@ -1,0 +1,41 @@
+.search-bar {
+  display: grid;
+  grid-template-columns: 0.2fr auto 0.1fr;
+}
+.search-input {
+  height: 25px;
+  width: 350px;
+  border-radius: 4px;
+  border: 1px solid #888888;
+  padding-left: 16px;
+  margin-left: 30%;
+  font-style: italic;
+}
+.account-icon {
+  margin-left: 3px;
+  color: #888888;
+}
+.search-icon {
+  color: white;
+  background-color: #af144b;
+  height: 29px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: -12px;
+}
+.select-icon {
+  color: #888888;
+  margin-right: 15px;
+}
+.select-option{
+  font-size: small;
+
+}
+.select-option .mat-icon{
+  font-size: large;
+
+}

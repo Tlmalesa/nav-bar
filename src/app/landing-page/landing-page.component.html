@@ -1,0 +1,27 @@
+<mat-toolbar class="search-bar">
+  <mat-toolbar-row style="background-color: blue">
+    <button mat-button><mat-icon>home</mat-icon>Home</button>
+  </mat-toolbar-row>
+  <mat-toolbar-row >
+    <!-- <mat-form-field> -->
+      <input
+        class="search-input"
+        type="text"
+        matInput
+        placeholder="Search for content"
+        name="search"
+      />
+      <mat-icon class="search-icon" >search</mat-icon>
+    <!-- </mat-form-field> -->
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <mat-icon class="account-icon">account_circle</mat-icon>
+    <mat-select class="select-icon">
+        <div class="select-option">
+            <mat-option><mat-icon>visibility</mat-icon>Profile</mat-option>
+            <mat-option><mat-icon>logout</mat-icon>Logout</mat-option>
+        </div>
+    
+    </mat-select>
+  </mat-toolbar-row>
+</mat-toolbar>
